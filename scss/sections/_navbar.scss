@@ -1,0 +1,5 @@
+@use "../custom" as *;
+
+.navbar-none {
+  border-bottom: solid $primary 1px;
+}
