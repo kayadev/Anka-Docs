@@ -9,6 +9,11 @@
 
 Bootstrap kullanılarak geliştirilen belgeler temasıdır.
 
+## İçindekiler
+
+[Yükleme](#yükleme)
+[Lisans](#lisans)
+
 ## Yükleme
 
 #### NPM Proje Kurulumu
