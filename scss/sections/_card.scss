@@ -1,14 +1,26 @@
 @use "../custom" as *;
 
-.main-head {
-  & h2 {
-    color: $primary;
+.card {
+  border: solid $color-100 1px;
+  & .card-title {
+    margin-bottom: 0px !important;
+  }
+}
+.card-hover {
+  & .card-text {
+    font-size: 0.75rem !important;
+    color: $color-700;
+    font-weight: 300;
+  }
+  & span {
+    font-weight: 600;
+  }
+  &:hover {
+    border: solid $color-200 1px !important;
   }
 }
 
-.card {
-  border: solid $color-100 1px;
-}
-.card-hover:hover {
-  border: solid $color-400 1px !important;
+.avatar-md {
+  height: 2.5rem;
+  width: 2.5rem;
 }
