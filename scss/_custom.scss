@@ -1,11 +1,33 @@
-$color-1: #6F38C5;
-$color-10: #996fdd;
-$color-100: #c3b3de;
-$color-2: #ABD9FF;
-$color-3: #ADDDD0;
-$color-4: #FAF7F0;
+$color: #6f38c5;
 
-$primary: $color-1;
+$color-2: #abd9ff;
+$color-3: #adddd0;
+$color-4: #faf7f0;
 
+// scss-docs-start color-functions
+// Tint a color: mix a color with white
+@function tint-color($color, $weight) {
+  @return mix(white, $color, $weight);
+}
+
+// Shade a color: mix a color with black
+@function shade-color($color, $weight) {
+  @return mix(black, $color, $weight);
+}
+
+// fusv-disable
+$color-100: tint-color($color, 80%) !default;
+$color-200: tint-color($color, 60%) !default;
+$color-300: tint-color($color, 40%) !default;
+$color-400: tint-color($color, 20%) !default;
+$color-500: $color !default;
+$color-600: shade-color($color, 20%) !default;
+$color-700: shade-color($color, 40%) !default;
+$color-800: shade-color($color, 60%) !default;
+$color-900: shade-color($color, 80%) !default;
+
+$color-10: tint(#6f38c5, 20%);
+
+$primary: $color;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

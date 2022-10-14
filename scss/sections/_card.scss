@@ -1,16 +1,14 @@
 @use "../custom" as *;
 
 .main-head {
-    & h2 {
-        color: $primary;
-    }
+  & h2 {
+    color: $primary;
+  }
 }
 
 .card {
-    border: solid $color-100 1px;
-
-
-    &:hover {
-        border: solid $color-10 1px;
-    }
+  border: solid $color-100 1px;
+}
+.card-hover:hover {
+  border: solid $color-400 1px !important;
 }
