@@ -11,10 +11,16 @@ Bootstrap kullanılarak geliştirilen belgeler temasıdır.
 
 ## Yükleme
 
-#### NPM
+#### NPM Proje Kurulumu
 
 ```bash
 git clone https://github.com/kayadev/Anka-Docs.git
+```
+
+#### Node Modul Kurulumu
+
+```bash
+npm install
 ```
 
 ## Lisans
