@@ -9,23 +9,30 @@
 
 Bootstrap kullanılarak geliştirilen belgeler temasıdır.
 
-## İçindekiler
+## Bilgisayarınızda Çalıştırın
 
-[Yükleme](#yükleme)
-[Lisans](#lisans)
-
-## Yükleme
-
-#### NPM Proje Kurulumu
+Projeyi klonlayın
 
 ```bash
 git clone https://github.com/kayadev/Anka-Docs.git
 ```
 
-#### Node Modul Kurulumu
+Proje dizinine gidin
+
+```bash
+cd my-project
+```
+
+Gerekli paketleri yükleyin
 
 ```bash
 npm install
+```
+
+Sunucuyu çalıştırın
+
+```bash
+npm run compile:sass
 ```
 
 ## Lisans
