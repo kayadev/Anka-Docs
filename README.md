@@ -9,6 +9,14 @@
 
 Bootstrap kullanılarak geliştirilen belgeler temasıdır.
 
+## Yükleme
+
+#### NPM
+
+```bash
+  git clone https://github.com/kayadev/Anka-Docs.git
+```
+
 ## Lisans
 
 [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.tr.html)
