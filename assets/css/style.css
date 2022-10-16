@@ -10769,6 +10769,14 @@ textarea.form-control-lg {
   border-bottom: solid #b7b8e9 1px;
 }
 
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .dropdown-menu {
+    margin-top: 0;
+  }
+}
 .blog-main a {
   text-decoration: none !important;
   color: #c82153;
@@ -10776,8 +10784,6 @@ textarea.form-control-lg {
 }
 .blog-main h2 a {
   color: black;
-  font-size: 20px;
-  font-weight: 600;
 }
 .blog-main h2 a:hover {
   color: #4b4dc7;

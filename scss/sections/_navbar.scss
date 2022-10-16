@@ -3,3 +3,14 @@
 .navbar-none {
   border-bottom: solid $color-200 1px;
 }
+
+
+@include media-breakpoint-up(lg) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-menu {
+    margin-top: 0;
+  }
+}
