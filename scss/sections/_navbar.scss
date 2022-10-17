@@ -3,7 +3,9 @@
 .navbar-none {
   border-bottom: solid $color-200 1px;
 }
-
+.navbar-none-100 {
+  border-bottom: solid $color-400 1px;
+}
 
 @include media-breakpoint-up(lg) {
   .dropdown:hover .dropdown-menu {

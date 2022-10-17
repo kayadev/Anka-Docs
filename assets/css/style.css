@@ -10769,6 +10769,10 @@ textarea.form-control-lg {
   border-bottom: solid #b7b8e9 1px;
 }
 
+.navbar-none-100 {
+  border-bottom: solid #6f71d2 1px;
+}
+
 @media (min-width: 992px) {
   .dropdown:hover .dropdown-menu {
     display: block;
