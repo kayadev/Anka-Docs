@@ -10769,13 +10769,42 @@ textarea.form-control-lg {
   border-bottom: solid #b7b8e9 1px;
 }
 
-.card {
-  border: solid #dbdbf4 1px;
+@media (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .dropdown-menu {
+    margin-top: 0;
+  }
 }
+.blog-main a {
+  text-decoration: none !important;
+  color: #c82153;
+  font-weight: 600;
+}
+.blog-main h2 a {
+  color: black;
+}
+.blog-main h2 a:hover {
+  color: #4b4dc7;
+}
+.blog-main p {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(92, 87, 118);
+}
+
+.card-border-none {
+  border: none;
+}
+
 .card .card-title {
   margin-bottom: 0px !important;
 }
 
+.card-hover {
+  border: solid #dbdbf4 1px;
+}
 .card-hover .card-text {
   font-size: 0.75rem !important;
   color: #2d2e77;
